@@ -45,14 +45,14 @@
         net start mysql
 
     如此就能启动本机上MySQL服务，要注意第一句" mysqld --initialize-insecure --user=mysql"非常重要不可省略，
-    "mysqld --initilalize -user" 的作用是在初始化MySQL下的data文件夹并且为root产生一个不随机的密码。
+    "mysqld --initilalize" 的作用是在初始化MySQL下的data文件夹并且为root产生一个不随机的密码。
 
     >MySQL5.7中新增的特性中其中有一个主要的方面就是极大的增强了安全性能，安装完MySQL后默认会为root@localhost用户创建了一个随机密码，这个随机密码在不同的系统上会使用不同的方式查找，否则无法登陆MySQL并且修改初始密码。
 
-    "-user=mysql"这一步指定了mysql用户是运行mysqld进程的用户名。设置这个用户以后，所有mysqld进程创建的文件都会术语mysql用户，在生产环境中进行权限管理时候便于管理。
+    "-user=mysql"这一步指定了mysql用户是运行mysqld进程的用户名。设置这个用户以后，所有mysqld进程创建的文件都会属于mysql用户，在生产环境中便于管理。
 
 *  如果有必要，可以为MySQL的bin文件夹配置环境变量。
 
 *  如果没有配置环境变量，可以在MySQL安装文件夹下路径下执行"mysql -u root -p"进入MySQL，按照上面的初始方式没有密码，提示输入密码时直接回车即可。
 
-* 注意**MySQL对远程连接的账户要求非常严格**，root账户默认是没有开启远程连接的，因此如果是远程服务器上的数据库，切记要配置一个远程连接的账户。
+*  注意**MySQL对远程连接的账户要求非常严格**，root账户默认是没有开启远程连接的，因此如果是远程服务器上的数据库，切记要配置一个远程连接的账户，并且为远程账户配置权限。
