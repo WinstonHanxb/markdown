@@ -1,4 +1,4 @@
-#CSS学习内容总结__盒式模型
+# CSS学习内容总结__盒式模型
 
 >最近集中对学习了CSS和HTML，总结一些最近学习过程中的关键内容
 
@@ -24,7 +24,7 @@
 
 指的是strong或span之类的元素。行内元素不会在其框的前面和后面生成换行，它们是块级元素的后代。通过声明"display: inline"，可以让元素生成为一个行内元素。
 
-##盒式模型
+## 盒式模型
 
 ![盒式模型图例](https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1490683759&di=58c4d75f7681e745b8756a3014e9aa5b&src=http://images.cnitblog.com/blog/511616/201410/141531208736709.png)
 
