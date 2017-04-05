@@ -8,3 +8,4 @@ for blogs
 * ES6新特性 Arrow function
 * ES6新特性 import modules
 * ES6新特性总结
+* FP编程思想 Curry化
