@@ -10,3 +10,4 @@ for blogs
 * ES6新特性总结
 * FP编程思想 Curry化
 * 编程思想 lambda演算
+* ES6新特性 promise类型
