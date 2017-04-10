@@ -11,3 +11,4 @@ for blogs
 * FP编程思想 Curry化
 * 编程思想 lambda演算
 * ES6新特性 promise类型
+* react-router 4.0  变化与特点总结
