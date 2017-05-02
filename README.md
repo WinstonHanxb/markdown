@@ -12,3 +12,9 @@ for blogs
 * 编程思想 lambda演算
 * ES6新特性 promise类型
 * react-router 4.0  变化与特点总结
+
+
+## 5月计划笔记
+
+* UML时序图和对象图
+* 枚举是什么？为什么要实现枚举？
